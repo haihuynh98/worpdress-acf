@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  worpdresstesting:
+    image: worpdresstesting
+    build:
+      context: .
+      dockerfile: ./Dockerfile
