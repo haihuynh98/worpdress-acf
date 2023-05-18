@@ -11,6 +11,15 @@ services:
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DEBUG: true
+      WORDPRESS_AUTH_KEY: '}4;)M?5r8K.)d(iuZp`Gt+CrbP[G>-%ZfyFbxkO|=T2jZ1<K4d0)|cjMh%){h%@?'
+      WORDPRESS_SECURE_AUTH_KEY: '^g,AOAEoBTx9X*Wtn~4m1G<k~=m:.NU:p2+d3yA]8&8.!E~{<p{j:$2MC+?K4lXN'
+      WORDPRESS_LOGGED_IN_KEY: 'iu|Hy%YSSaztD/6`bY>Im4(GT]Lt2sn6wxkpbsM;UAYf7%SIhE0X.?LL5A&EI=7f'
+      WORDPRESS_NONCE_KEY: 'VT_O+NF^aRu5U#<uO8k=V@fx9`EC%wnN_Xt6LqP%QjYPC*ijqtk&qh<?WXQZo@a^'
+      WORDPRESS_AUTH_SALT: '`2fzvo!8YN.0iuAjfpfV|[$-+J:+X<7(f;-)^`{@xpy0Y-XV=>=S=x}]db^n_>jO'
+      WORDPRESS_SECURE_AUTH_SALT: ')m!)EJQr,+~M6mvF;#3nvxVXK)<80g;{m0X16K4^]eRiq}[Hp|+.S&D}/Z8q(;2p'
+      WORDPRESS_LOGGED_IN_SALT: '8msVua+,{/ip7e#K22s)W*(HE#0[%]{%rF$T<g>R(L{*jdJC!Th!UR<bbqlXR[zy'
+      WORDPRESS_NONCE_SALT: '`H9!$s?Xyl.N`>kSkT#r~#_y/BO^;kvTd<0m)w_f$<&<*F!Y7&GLH=(lXFBF|f^%'
     volumes:
       - ./wordpress:/var/www/html
 

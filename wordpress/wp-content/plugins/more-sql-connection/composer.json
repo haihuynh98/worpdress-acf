@@ -1,0 +1,7 @@
+{
+    "name": "ba-lfglobal/more-sql-connection",
+    "require": {
+        "doctrine/orm": "^2.14",
+        "doctrine/dbal": "^3.6"
+    }
+}

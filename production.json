@@ -1,0 +1,29 @@
+{
+    "fields": [
+      {
+        "key": "field_product_name",
+        "label": "Tên sản phẩm",
+        "name": "product_name",
+        "type": "text"
+      },
+      {
+        "key": "field_product_description",
+        "label": "Mô tả sản phẩm",
+        "name": "product_description",
+        "type": "textarea"
+      },
+      {
+        "key": "field_product_price",
+        "label": "Giá sản phẩm",
+        "name": "product_price",
+        "type": "number"
+      },
+      {
+        "key": "field_product_image",
+        "label": "Hình ảnh sản phẩm",
+        "name": "product_image",
+        "type": "image"
+      }
+    ]
+  }
+  
